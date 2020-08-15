@@ -1,0 +1,78 @@
+
+body {
+    background: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;
+}
+#home-section {
+    background: url(../img/home-section.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section .dark-overly {
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#home-section .fas {
+    background: #fff;
+    padding: 4px;
+    font-size: 30px;
+    color: #008ed6;
+    border-radius: 4px;
+}
+#explore-main-section .fas {
+    background: #333;
+    padding: 4px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 4px;
+}
+#create-main-section .fas {
+    background: #fff;
+    padding: 4px;
+    font-size: 30px;
+    color: #008ed6;
+    border-radius: 4px;
+}
+
+hr{
+    background: white;	
+}
+
+.contact-form{
+    background:rgba(0,0,0, .6);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+.service-box > i {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: block!important;
+}
+.service-box > .service-btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 400;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0px auto;
+}
